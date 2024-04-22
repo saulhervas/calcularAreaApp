@@ -1,0 +1,21 @@
+
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+q
+Aapp/src/main/java/com/saulhervas/actividad02/view/MainActivity.kt,7\7\779830bab39d1ea70c2ccef546d1484d51d9fbd7
+l
+<app/src/main/java/com/saulhervas/actividad02/model/Circle.kt,8\8\88007443c629ca3ac18eb54cca5eb392d13f03c7
+l
+<app/src/main/java/com/saulhervas/actividad02/model/Figura.kt,3\4\341ffa5de493b14fb71b754d0fcdea6aec68de7f
+l
+<app/src/main/java/com/saulhervas/actividad02/model/Square.kt,e\6\e656ff9754098a7c7b782608b3299f51b40df1e2
+n
+>app/src/main/java/com/saulhervas/actividad02/model/Triangle.kt,6\e\6e3189a84714b76abd5c6907c1813f66fd1bcbf0
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+{
+Kapp/src/main/java/com/saulhervas/actividad02/controller/SquareController.kt,4\0\4001014aa127954f13f7fb1924de9203e4ee1adf
+{
+Kapp/src/main/java/com/saulhervas/actividad02/view/CalculatedAreaAcyivity.kt,9\4\94eb0fc636df9b5ba37e58bf2741fcb04fd09853

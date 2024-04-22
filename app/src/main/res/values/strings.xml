@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">actividad02</string>
+    <string name="title">Haz click en una figura para poder calcular su superficie </string>
+    <string name="square">Cuadrado</string>
+    <string name="triangle">Triángulo</string>
+    <string name="circle">Círculo</string>
+
+</resources>
