@@ -6,13 +6,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.saulhervas.actividad02.R
-import com.saulhervas.actividad02.databinding.ActivityCalculatedAreaActivityBinding
+import com.saulhervas.actividad02.databinding.ActivityCalculatedAreaSquareActivityBinding
 
-class CalculatedAreaAcyivity : AppCompatActivity() {
-    private lateinit var binding: ActivityCalculatedAreaActivityBinding
+class CalculatedAreaSquareActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityCalculatedAreaSquareActivityBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityCalculatedAreaActivityBinding.inflate(layoutInflater)
+        binding = ActivityCalculatedAreaSquareActivityBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

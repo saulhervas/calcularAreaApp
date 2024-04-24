@@ -2,16 +2,16 @@ package com.saulhervas.actividad02.model
 
 import android.content.Context
 import android.content.Intent
-import com.saulhervas.actividad02.view.CalculatedAreaAcyivity
+import com.saulhervas.actividad02.view.CalculatedAreaSquareActivity
 
-data class Circle (val radio: Double) : Figura {
+data class Circle(val radio: Double) : Figure {
 
-    override fun calcularArea(): Double {
+    override fun calculatedArea(): Double {
         return Math.PI * radio * radio
     }
 
     override fun navigateToCalculatedAreaActivity(context: Context): Intent {
-        return Intent(context, CalculatedAreaAcyivity::class.java)
+        return Intent(context, CalculatedAreaSquareActivity::class.java)
     }
 
 }

@@ -4,5 +4,8 @@
     <string name="square">Cuadrado</string>
     <string name="triangle">Triángulo</string>
     <string name="circle">Círculo</string>
+    <string name="twSquare">Área del cuadrado</string>
+    <string name="twInfo">Lado (cm)</string>
+    <string name="twResult">El resutado es:</string>
 
 </resources>
