@@ -4,9 +4,9 @@ import android.content.Context
 import android.content.Intent
 
 
-interface Figura {
+interface Figure {
 
-    fun calcularArea(): Double
+    fun calculatedArea(): Double
 
     fun navigateToCalculatedAreaActivity(context: Context): Intent
 

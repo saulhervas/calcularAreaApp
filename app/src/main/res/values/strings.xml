@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">actividad02</string>
     <string name="title">Haz click en una figura para poder calcular su superficie </string>
+
+    // Figures
     <string name="square">Cuadrado</string>
     <string name="triangle">Triángulo</string>
     <string name="circle">Círculo</string>
+
+    // Strings activity cuadrado
+    <string name="twSquare">Área del cuadrado</string>
+    <string name="twInfo">Lado (cm)</string>
+    <string name="twResult">El resutado es:</string>
+
+    // String activity circulo
+    <string name="twCircle">Área del circulo</string>
+    <string name="twInfoCircle">Radio (cm)</string>
+    <string name="twResultCircle">El resutado es:</string>
 
 </resources>
