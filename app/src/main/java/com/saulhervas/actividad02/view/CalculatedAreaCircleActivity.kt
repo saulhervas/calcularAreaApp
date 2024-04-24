@@ -7,17 +7,16 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 import com.saulhervas.actividad02.R
-import com.saulhervas.actividad02.databinding.ActivityCalculatedAreaSquareActivityBinding
-import com.saulhervas.actividad02.viewmodel.SquareViewModel
+import com.saulhervas.actividad02.databinding.ActivityCalculatedAreaCircleBinding
+import com.saulhervas.actividad02.viewmodel.CircleViewModel
 
-class CalculatedAreaSquareActivity : AppCompatActivity() {
+class CalculatedAreaCircleActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityCalculatedAreaSquareActivityBinding
-    private lateinit var squareViewModel: SquareViewModel
-
+    private lateinit var binding: ActivityCalculatedAreaCircleBinding
+    private lateinit var circleViewModel: CircleViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityCalculatedAreaSquareActivityBinding.inflate(layoutInflater)
+        binding = ActivityCalculatedAreaCircleBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -26,24 +25,23 @@ class CalculatedAreaSquareActivity : AppCompatActivity() {
             insets
         }
 
-        squareViewModel = ViewModelProvider(this).get(SquareViewModel::class.java)
+        circleViewModel = ViewModelProvider(this).get(CircleViewModel::class.java)
 
         binding.btnCalcular.setOnClickListener {
             calculateShowArea()
         }
-
-        squareViewModel.result.observe(this) {
+        circleViewModel.result.observe(this) {
             binding.twResultArea.text = it
         }
     }
 
     private fun calculateShowArea() {
-        val sideText = binding.etSide.text.toString()
-        if (sideText.isNotEmpty()) {
-            val side = sideText.toDouble()
-            squareViewModel.calculateArea(side)
+        val radiusText = binding.etRadius.text.toString()
+        if (radiusText.isNotEmpty()) {
+            val radius = radiusText.toDouble()
+            circleViewModel.calculateArea(radius)
         } else {
-            binding.twResultArea.text = "Por favor, introduce el valor del lado"
+            binding.twResultArea.text = "Por favor, introduce el valor del radio"
         }
     }
 }
