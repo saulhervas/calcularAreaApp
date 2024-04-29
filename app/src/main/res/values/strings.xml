@@ -10,11 +10,16 @@
     // Strings activity cuadrado
     <string name="twSquare">Área del cuadrado</string>
     <string name="twInfo">Lado (cm)</string>
-    <string name="twResult">El resutado es:</string>
+    <string name="twResult">El resultado es:</string>
 
-    // String activity circulo
-    <string name="twCircle">Área del circulo</string>
+    // Strings activity circulo
+    <string name="twCircle">Área del círculo</string>
     <string name="twInfoCircle">Radio (cm)</string>
     <string name="twResultCircle">El resutado es:</string>
+
+    // Strings activity triangulo
+    <string name="twTriangle">Área del triángulo</string>
+    <string name="twBaseInfo">Base (cm)</string>
+    <string name="twHeightInfo">Altura (cm)</string>
 
 </resources>
