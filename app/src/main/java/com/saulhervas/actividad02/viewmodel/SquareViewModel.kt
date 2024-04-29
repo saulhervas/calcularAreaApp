@@ -11,6 +11,6 @@ class SquareViewModel : ViewModel() {
 
     fun calculateArea(side: Double) {
         val area = side * side
-        _result.value = area.toString()
+        _result.value = "$area  Cm"
     }
 }
