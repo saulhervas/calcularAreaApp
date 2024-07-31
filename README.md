@@ -1,7 +1,7 @@
 Aplicacion para calcular el area del cuadrado,el círculo y el triángulo
 
 
-|: https://github.com/user-attachments/assets/de096b55-e8eb-423f-aa4e-1910ffa1ac4d :|
+|:https://github.com/user-attachments/assets/de096b55-e8eb-423f-aa4e-1910ffa1ac4d:|
 
 
 
