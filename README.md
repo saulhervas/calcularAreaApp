@@ -2,7 +2,7 @@ Aplicacion para calcular el area del cuadrado,el círculo y el triángulo
 
 |                               Pantalla Figuras                                         | 
 |:------------------------------------------------------------------------------:|
-|                     ![2024-07-31-22-21-13](https://github.com/user-attachments/assets/01f37af4-8ea3-43be-8df6-fbde6c425afc)                 |
+|                     ![easy_chat1](https://github.com/user-attachments/assets/9836fe89-6cc6-4118-959e-b26395f18dbd)     |
 
 
 |                               Pantalla Figuras                              |                                   Pantalla Calcular Area Cuadrado                                |
