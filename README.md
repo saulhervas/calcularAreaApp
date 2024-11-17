@@ -6,8 +6,7 @@ Una aplicación sencilla desarrollada en **Kotlin** que permite calcular el áre
 
 ## 📋 **Características**  
 
-- **Cálculo de áreas**: Selecciona una figura geométrica (cuadrado, rectángulo, triángulo, círculo) e ingresa los datos necesarios para calcular su área.  
-- **Interfaz moderna**: Diseño simple y funcional desarrollado con **Jetpack Compose**.  
+- **Cálculo de áreas**: Selecciona una figura geométrica (cuadrado, triángulo, círculo) e ingresa los datos necesarios para calcular su área.  
 - **Resultados instantáneos**: Los cálculos se realizan en tiempo real al introducir los valores.  
 
 ---
