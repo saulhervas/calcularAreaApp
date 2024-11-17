@@ -35,8 +35,15 @@ Antes de empezar, asegúrate de tener instalados los siguientes programas:
 3. Abre Android Studio y selecciona la opción Open an Existing Project.
 4. Navega hasta la carpeta donde clonaste el repositorio y selecciona el proyecto.
 5. Sincroniza las dependencias:
-- Android Studio se encargará automáticamente de sincronizar las dependencias necesarias.
-- Si no sucede automáticamente, haz clic en Sync Project with Gradle Files en la barra superior.
+ - Android Studio se encargará automáticamente de sincronizar las dependencias necesarias.
+ - Si no sucede automáticamente, haz clic en Sync Project with Gradle Files en la barra superior.
+6. Configura un dispositivo virtual (emulador) o conecta un dispositivo físico
+  - Para emuladores: Abre el AVD Manager en Android Studio y crea un dispositivo virtual con un sistema operativo Android compatible.
+  - Para dispositivos físicos: Asegúrate de habilitar la Depuración USB en tu dispositivo y conéctalo a tu computadora.
+7. Ejecuta la aplicación:
+ - Haz clic en el botón Run (icono de un triángulo verde) o presiona Shift + F10 para compilar y ejecutar la aplicación.
+
+## 🖼️ Capturas de pantalla
   
 
 |                               Video App                                        | 
